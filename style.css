@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
   margin: 0;
@@ -9,5 +9,85 @@
    Common Use
 ----------*/
 body{
-  font-family: 'Play', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background: #f0f5fd;
+  color: #3A3A3A;
+
+}
+.container{
+  width: 1140px;
+  margin: auto;
+  overflow: hidden;
+}
+/*----------
+   Top Section
+----------*/
+.topBarWrapper{
+  overflow: hidden;
+}
+.topBar {
+  padding: 50px 0px 0px 0px;
+}
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav ul li {
+  display: inline;
+  padding: 0px 0px 0px 25px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*----------
+   StartJourny
+----------*/
+.statrJourny {
+  margin: 30px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.startJouHeader {
+  margin: 60px 0px 0px 0px;
+  width: 582px;
+  height: 270px;
+}
+.startJouHeader h2 {
+  font-size: 35px;
+  line-height: 1.3em;
+  padding: 0px 0px 20px 0px;
+}
+.startJouHeader p {
+  width: 505px;
+  height: 75px;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+.startImg {
+  width: 440px;
+  height: 414px;
+  margin: 0px 0px 0px 60px;
+}
+button {
+  background: #E02C6D;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px 0px 0px 0px;
+}
+button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.fas.fa-angle-right {
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
 }
