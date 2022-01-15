@@ -52,7 +52,7 @@ nav ul li a {
   grid-template-columns: repeat(2, 1fr);
 }
 .startJouHeader {
-  margin: 60px 0px 0px 0px;
+  margin: 90px 0px 0px 0px;
   width: 582px;
   height: 270px;
 }
@@ -90,4 +90,20 @@ button a {
 .fas.fa-angle-right {
   padding: 0px 0px 0px 10px;
   font-size: 16px;
+}
+
+/*----------
+   Web And Bank
+----------*/
+#Web {
+  margin: 35px 0px 0px 0px;
+}
+hr{
+  opacity: 10%;
+}
+.image img {
+  width: 84px;
+  height: 35px;
+  margin: 5px 0px 5px 65px;
+  cursor: pointer;
 }
