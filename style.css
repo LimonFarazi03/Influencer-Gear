@@ -145,6 +145,7 @@ hr{
   margin: 0px 0px 5px 10px;
   border-radius: 10px;
   cursor: pointer;
+  overflow: hidden;
 }
 .box:last-child{
   margin-bottom: 40px;
@@ -154,9 +155,12 @@ hr{
 }
 .boxImg img {
   width: 90%;
+  transition: .5s ease-in-out;
+}
+.boxImg img:hover{
+  transform: scale(1.1);
 }
 .next{
-
   padding: 38px 0px 0px 245px;
   font-size: 18px;
   color: #E02C6D;
@@ -227,11 +231,12 @@ span {
   cursor: pointer;
 }
 #lastFooter {
-  background: #0A0826;
   color: white;
   margin: 30px 0px 0px 0px;
 }
-
+footer{
+  background: #0A0826;
+}
 .footerInfo {
   text-align: center;
 }
@@ -253,4 +258,7 @@ span {
   padding: 5px;
   border-radius: 20px;
   margin: 0px 0px 0px 4px;
+}
+@media only screen and (max-width:688px){
+  
 }
