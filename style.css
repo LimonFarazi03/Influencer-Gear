@@ -161,8 +161,8 @@ hr{
   transform: scale(1.1);
 }
 .next{
-  padding: 38px 0px 0px 245px;
-  font-size: 18px;
+  padding: 0px 0px 0px 15px;
+  font-size: 17px;
   color: #E02C6D;
 }
 .next a{
@@ -258,7 +258,4 @@ footer{
   padding: 5px;
   border-radius: 20px;
   margin: 0px 0px 0px 4px;
-}
-@media only screen and (max-width:688px){
-  
 }
